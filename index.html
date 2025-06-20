@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching Tools Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<script src="https://lib.youware.com/youware-lib.1747145198.js" id="yourware-lib"></script></head>
+<body>
+        <header>
+            <img src="logo.png" alt="School Logo" id="logo">
+            <h1>Teaching Tools Platform</h1>
+        </header>
+
+    <main class="container">
+        <section class="intro animate-fade-in">
+            <h2>Enhance Your Teaching Experience</h2>
+            <p>Discover and use professional tools designed to help you create engaging lessons, 
+               effective assessments, and meaningful learning experiences for your students.</p>
+        </section>
+
+        <section class="search-filter animate-fade-in">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for tools...">
+                <i class="fa-solid fa-search"></i>
+            </div>
+            <div class="categories">
+                <button class="category-btn active" data-category="all">All Tools</button>
+                <button class="category-btn" data-category="planning">Planning</button>
+                <button class="category-btn" data-category="assessment">Assessment</button>
+                <button class="category-btn" data-category="engagement">Engagement</button>
+                <button class="category-btn" data-category="my-list">My Favorite</button>
+            </div>
+        </section>
+
+        <section class="tools-grid" id="toolsGrid">
+            <!-- Tool cards will be dynamically inserted here -->
+        </section>
+
+        <!-- Empty state for no results -->
+        <div class="empty-state" id="emptyState">
+            <i class="fa-solid fa-search"></i>
+            <h3>No tools found</h3>
+            <p>We couldn't find any tools matching your search criteria.</p>
+            <button class="btn-reset-search" id="btnResetSearch">Clear search</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">About</a>
+                </div>
+                <p class="copyright">Mingwan School - Teaching Tools Platform - &copy;Created by Teaching team</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Disable F12 key
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I') || (e.ctrlKey && e.shiftKey && e.key === 'J') || (e.ctrlKey && e.key === 'U')) {
+                e.preventDefault();
+            }
+        });
+
+        // Disable right-click context menu
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
