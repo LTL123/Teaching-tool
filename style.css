@@ -1,13 +1,13 @@
 :root {
-            --primary: #4361ee;
-            --primary-dark: #3651d1;
-            --primary-light: #e0e8ff;
-            --secondary: #3a86ff;
-            --accent: #ffbe0b;
-            --danger: #ef233c;
-            --dark: #2b2d42;
-            --gray: #8d99ae;
-            --light-gray: #edf2f4;
+            --primary: #007bff; /* Deep blue from the logo */
+            --primary-dark: #0056b3; /* Darker shade of primary */
+            --primary-light: #e6f2ff; /* Lighter shade of primary */
+            --secondary: #00c0e0; /* A brighter blue/cyan from the waves */
+            --accent: #ff8c00; /* Orange from the sun */
+            --danger: #dc3545; /* Standard red for danger */
+            --dark: #333333; /* Darker text for better contrast */
+            --gray: #666666; /* Darker gray for better readability */
+            --light-gray: #f0f0f0;
             --bg-light: #f8f9fa;
             --white: #ffffff;
             --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);

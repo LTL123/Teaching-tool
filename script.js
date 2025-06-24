@@ -1,1 +1,345 @@
-const _0x7d23=['true','fa-solid\x20fa-file-lines','badge\x20badge-','secondary','length','includes','div','fa-solid\x20fa-robot','tool-btn\x20secondary','Clear\x20Directions','fa-solid\x20fa-ticket','innerHTML','getElementById','tool-content','tool-btn','fa-solid\x20fa-calendar-days','assessment','toLowerCase','.category-btn.active','label','Add\x20to\x20favorites','fa-solid\x20fa-bullseye','fa-solid\x20fa-list-check','style','type','addEventListener','add','Create\x20quick\x20end-of-lesson\x20assessments\x20to\x20check\x20student\x20understanding.','classList','tool-card','btnResetSearch','my-list','focus','tool-footer','_blank','url','title','<i\x20class=\x22','primary','flex','fa-solid\x20fa-language','https://yuanqi.tencent.com/agent/LL0m3lQv0zo8','getItem','English\x20text','remove','icon','textContent','dataset','fa-solid\x20fa-ruler','category','./pa-template/index.html','actions','openLink','createElement','Exit\x20Ticket','Short\x20Text','tool-header','Long\x20Text','planning','removeItem','open','\x22></i>\x20','Discussion\x20Prompts','aria-label','tool_','description','button','all','display','setItem','fa-solid\x20fa-align-center','appendChild','input','added','span','Chinese\x20text','Adjust\x20the\x20reading\x20level\x20of\x20a\x20text\x20to\x20make\x20it\x20more\x20or\x20less\x20complex.','setAttribute','fa-solid\x20fa-hand','none','<i\x20class=\x22fa-regular\x20fa-star\x22></i>','Remove\x20from\x20favorites','forEach','Open\x20Tool','value','add-to-list-btn','fa-solid\x20fa-users','https://yuanqi.tencent.com/agent/VGG01iZUTK8j','click','className'];const _0x5c0a=function(_0x7d2309,_0x5c0a51){_0x7d2309=_0x7d2309-0x0;let _0x1e1a0d=_0x7d23[_0x7d2309];return _0x1e1a0d;};document[_0x5c0a('0x19')]('DOMContentLoaded',()=>{const _0x58502b=document['getElementById']('toolsGrid');const _0x2d91ab=document[_0x5c0a('0xc')]('searchInput');const _0x222db7=document['querySelectorAll']('.category-btn');const _0x130067=document[_0x5c0a('0xc')]('emptyState');const _0xb3ff9b=document['getElementById'](_0x5c0a('0x1e'));const _0x1e5593=[{'icon':'fa-solid\x20fa-tasks','title':'Performance\x20Task\x20Design\x20Tool','description':'Design\x20authentic\x20performance\x20tasks\x20that\x20assess\x20deeper\x20understanding.','category':'assessment','isFavorited':![],'formFields':[],'actions':[{'name':_0x5c0a('0x34'),'label':_0x5c0a('0x53'),'type':'primary','url':_0x5c0a('0x32')}]},{'icon':_0x5c0a('0x30'),'title':'Leveler','description':_0x5c0a('0x4c'),'category':'planning','isFavorited':!![],'formFields':['textarea'],'actions':[{'name':'openLink','label':'English\x20text','type':'primary','url':'https://yuanqi.tencent.com/agent/s8hZA9JPvhk7'},{'name':_0x5c0a('0x34'),'label':_0x5c0a('0x4b'),'type':'secondary','url':'https://yuanqi.tencent.com/agent/iomAX06eLMBI'}]},{'icon':'fa-solid\x20fa-bars','title':'Chunk\x20Text','description':'Break\x20complex\x20texts\x20into\x20manageable\x20sections\x20for\x20easier\x20student\x20comprehension.','category':'planning','isFavorited':![],'formFields':[],'actions':[{'name':'openLink','label':'Long\x20Text','type':_0x5c0a('0x26'),'url':_0x5c0a('0x57')},{'name':'openLink','label':_0x5c0a('0x37'),'type':_0x5c0a('0x3'),'url':'https://yuanqi.tencent.com/agent/AbYoIQ1jMG3m'}]},{'icon':_0x5c0a('0x1'),'title':_0x5c0a('0x9'),'description':'Generate\x20concise,\x20easy-to-follow\x20instructions\x20for\x20assignments\x20and\x20activities.','category':_0x5c0a('0x3a'),'isFavorited':![],'formFields':[],'actions':[{'name':'openLink','label':'Get\x20agent','type':_0x5c0a('0x26'),'url':_0x5c0a('0x29')}]},{'icon':_0x5c0a('0xa'),'title':_0x5c0a('0x36'),'description':_0x5c0a('0x1b'),'category':_0x5c0a('0x10'),'isFavorited':![],'formFields':[],'actions':[{'name':_0x5c0a('0x34'),'label':'Get\x20agent','type':_0x5c0a('0x26'),'url':'https://yuanqi.tencent.com/agent/UpGCq8RLnn4y'}]},{'icon':_0x5c0a('0x15'),'title':'Learning\x20Objective(s)','description':'Develop\x20clear,\x20measurable\x20learning\x20objectives\x20to\x20guide\x20instruction.','category':'planning','isFavorited':![],'formFields':[]},{'icon':_0x5c0a('0x16'),'title':'Multiple\x20Choice\x20Assessment','description':'Create\x20multiple-choice\x20assessments\x20on\x20a\x20variety\x20of\x20topics.','category':_0x5c0a('0x10'),'isFavorited':![],'formFields':[]},{'icon':'fa-solid\x20fa-comments','title':_0x5c0a('0x3e'),'description':'Craft\x20engaging\x20prompts\x20to\x20stimulate\x20meaningful\x20classroom\x20discussions.','category':'engagement','isFavorited':![],'formFields':[]},{'icon':'fa-solid\x20fa-link','title':'Make\x20It\x20Relevant','description':'Link\x20lesson\x20content\x20to\x20students\x27\x20lives\x20and\x20interests\x20to\x20boost\x20engagement.','category':'engagement','isFavorited':![],'formFields':[]}];function _0x35adf3(_0x113e39){let _0x1ffd2e;switch(_0x113e39){case _0x5c0a('0x3a'):_0x1ffd2e=_0x5c0a('0xf');break;case'assessment':_0x1ffd2e='fa-solid\x20fa-chart-simple';break;case'engagement':_0x1ffd2e=_0x5c0a('0x56');break;default:_0x1ffd2e='fa-solid\x20fa-tag';}return _0x5c0a('0x25')+_0x1ffd2e+'\x22></i>'+(_0x113e39['charAt'](0x0)['toUpperCase']()+_0x113e39['slice'](0x1));}function _0x50e853(_0x3cbccd){const _0x5c7e64=document['createElement'](_0x5c0a('0x6'));_0x5c7e64['className']=_0x5c0a('0x1d');_0x5c7e64['style']['opacity']='1';_0x5c7e64[_0x5c0a('0x2f')]['category']=_0x3cbccd[_0x5c0a('0x31')];const _0x3a06d4=document[_0x5c0a('0x35')](_0x5c0a('0x6'));_0x3a06d4[_0x5c0a('0x59')]=_0x5c0a('0x38');const _0xded633=document['createElement'](_0x5c0a('0x6'));_0xded633[_0x5c0a('0x59')]='tool-icon';_0xded633['innerHTML']=_0x5c0a('0x25')+_0x3cbccd[_0x5c0a('0x2d')]+'\x22></i>';const _0x1f3dfb=document[_0x5c0a('0x35')]('h3');_0x1f3dfb['className']='tool-title';_0x1f3dfb['textContent']=_0x3cbccd[_0x5c0a('0x24')];_0x3a06d4[_0x5c0a('0x47')](_0xded633);_0x3a06d4[_0x5c0a('0x47')](_0x1f3dfb);const _0x55a369=document[_0x5c0a('0x35')]('div');_0x55a369[_0x5c0a('0x59')]=_0x5c0a('0xd');const _0x9d64d2=document[_0x5c0a('0x35')]('p');_0x9d64d2[_0x5c0a('0x59')]='tool-description';_0x9d64d2[_0x5c0a('0x2e')]=_0x3cbccd[_0x5c0a('0x41')];const _0x3bf63c=document[_0x5c0a('0x35')](_0x5c0a('0x4a'));_0x3bf63c['className']=_0x5c0a('0x2')+_0x3cbccd[_0x5c0a('0x31')];_0x3bf63c[_0x5c0a('0xb')]=_0x35adf3(_0x3cbccd['category']);_0x55a369['appendChild'](_0x9d64d2);_0x55a369['appendChild'](_0x3bf63c);const _0x3995da=document['createElement'](_0x5c0a('0x6'));_0x3995da['className']=_0x5c0a('0x21');if(_0x3cbccd[_0x5c0a('0x33')]&&_0x3cbccd[_0x5c0a('0x33')]['length']>0x0){_0x3cbccd['actions']['forEach'](_0x32ab18=>{const _0x202708=document[_0x5c0a('0x35')]('button');_0x202708['className']=_0x32ab18[_0x5c0a('0x18')]==='primary'?_0x5c0a('0xe'):_0x5c0a('0x8');if(_0x32ab18['label']===_0x5c0a('0x2b')){_0x202708[_0x5c0a('0x1c')]['add']('english-text-btn');}else if(_0x32ab18[_0x5c0a('0x13')]===_0x5c0a('0x4b')){_0x202708[_0x5c0a('0x1c')]['add']('chinese-text-btn');}let _0x7bd988='';switch(_0x32ab18['name']){case _0x5c0a('0x34'):if(_0x32ab18['label']===_0x5c0a('0x39'))_0x7bd988='fa-solid\x20fa-align-left';else if(_0x32ab18['label']==='Short\x20Text')_0x7bd988=_0x5c0a('0x46');else if(_0x32ab18['label']==='Get\x20agent')_0x7bd988=_0x5c0a('0x7');else if(_0x32ab18['label']==='English\x20text')_0x7bd988='fa-solid\x20fa-language';else if(_0x32ab18[_0x5c0a('0x13')]==='Chinese\x20text')_0x7bd988=_0x5c0a('0x28');else _0x7bd988=_0x5c0a('0x4e');break;default:_0x7bd988='fa-solid\x20fa-arrow-right';}_0x202708[_0x5c0a('0xb')]='<i\x20class=\x22'+_0x7bd988+_0x5c0a('0x3d')+_0x32ab18[_0x5c0a('0x13')];_0x202708[_0x5c0a('0x19')]('click',()=>{if(_0x32ab18[_0x5c0a('0x23')]){window[_0x5c0a('0x3c')](_0x32ab18['url'],_0x5c0a('0x22'));}else{window[_0x5c0a('0x3c')](_0x5c0a('0x57'),_0x5c0a('0x22'));}});_0x3995da[_0x5c0a('0x47')](_0x202708);});}const _0x2333c8=document[_0x5c0a('0x35')](_0x5c0a('0x42'));_0x2333c8[_0x5c0a('0x59')]=_0x5c0a('0x55');_0x2333c8['setAttribute'](_0x5c0a('0x3f'),'Add\x20to\x20favorites');_0x2333c8[_0x5c0a('0xb')]=_0x5c0a('0x50');const _0xb00839=localStorage[_0x5c0a('0x2a')]('tool_'+_0x3cbccd['title'])==='true';if(_0xb00839){_0x2333c8['classList']['add']('added');_0x2333c8['innerHTML']='<i\x20class=\x22fa-solid\x20fa-star\x22></i>';_0x2333c8[_0x5c0a('0x4d')]('aria-label',_0x5c0a('0x51'));}_0x2333c8[_0x5c0a('0x19')]('click',_0xb9acd9=>{_0xb9acd9['stopPropagation']();const _0x3a5cae=_0x2333c8[_0x5c0a('0x1c')]['contains']('added');if(_0x3a5cae){_0x2333c8[_0x5c0a('0x1c')][_0x5c0a('0x2c')](_0x5c0a('0x49'));_0x2333c8[_0x5c0a('0xb')]='<i\x20class=\x22fa-regular\x20fa-star\x22></i>';_0x2333c8['setAttribute']('aria-label',_0x5c0a('0x14'));localStorage[_0x5c0a('0x3b')]('tool_'+_0x3cbccd[_0x5c0a('0x24')]);}else{_0x2333c8['classList']['add'](_0x5c0a('0x49'));_0x2333c8['innerHTML']='<i\x20class=\x22fa-solid\x20fa-star\x22></i>';_0x2333c8[_0x5c0a('0x4d')]('aria-label',_0x5c0a('0x51'));localStorage[_0x5c0a('0x45')](_0x5c0a('0x40')+_0x3cbccd['title'],'true');}});_0x3995da[_0x5c0a('0x47')](_0x2333c8);_0x5c7e64[_0x5c0a('0x47')](_0x3a06d4);_0x5c7e64['appendChild'](_0x55a369);_0x5c7e64[_0x5c0a('0x47')](_0x3995da);return _0x5c7e64;}function _0x669335(_0x55fd5f){_0x58502b['innerHTML']='';if(_0x55fd5f[_0x5c0a('0x4')]===0x0){_0x130067['style'][_0x5c0a('0x44')]=_0x5c0a('0x27');_0x58502b['style'][_0x5c0a('0x44')]='none';}else{_0x130067[_0x5c0a('0x17')][_0x5c0a('0x44')]=_0x5c0a('0x4f');_0x58502b['style'][_0x5c0a('0x44')]='grid';_0x55fd5f['forEach'](_0x1e7613=>{const _0x2e5f3c=_0x50e853(_0x1e7613);_0x58502b['appendChild'](_0x2e5f3c);});}}_0x2d91ab[_0x5c0a('0x19')](_0x5c0a('0x48'),()=>{_0x5c2651();});_0xb3ff9b[_0x5c0a('0x19')](_0x5c0a('0x58'),()=>{_0x2d91ab[_0x5c0a('0x54')]='';_0x5c2651();_0x2d91ab[_0x5c0a('0x20')]();});function _0x5c2651(){const _0x1617b7=_0x2d91ab['value'][_0x5c0a('0x11')]()['trim']();const _0x567d9e=document['querySelector'](_0x5c0a('0x12'))['dataset']['category'];const _0x7a6675=_0x1e5593['filter'](_0x5cf841=>{const _0x49f3e6=_0x5cf841[_0x5c0a('0x24')][_0x5c0a('0x11')]()[_0x5c0a('0x5')](_0x1617b7)||_0x5cf841['description'][_0x5c0a('0x11')]()['includes'](_0x1617b7);let _0x1a3cd9=!![];if(_0x567d9e===_0x5c0a('0x1f')){_0x1a3cd9=localStorage[_0x5c0a('0x2a')](_0x5c0a('0x40')+_0x5cf841[_0x5c0a('0x24')])===_0x5c0a('0x0');}else if(_0x567d9e!==_0x5c0a('0x43')){_0x1a3cd9=_0x5cf841[_0x5c0a('0x31')]===_0x567d9e;}return _0x49f3e6&&_0x1a3cd9;});_0x669335(_0x7a6675);}_0x222db7[_0x5c0a('0x52')](_0xbb6448=>{_0xbb6448[_0x5c0a('0x19')](_0x5c0a('0x58'),()=>{_0x222db7[_0x5c0a('0x52')](_0x2268ba=>_0x2268ba['classList'][_0x5c0a('0x2c')]('active'));_0xbb6448['classList'][_0x5c0a('0x1a')]('active');_0x5c2651();});});setTimeout(()=>{_0x669335(_0x1e5593);document['body']['offsetHeight'];},0x0);});
+document.addEventListener('DOMContentLoaded', () => {
+            const toolsGrid = document.getElementById('toolsGrid');
+            const searchInput = document.getElementById('searchInput');
+            const categoryBtns = document.querySelectorAll('.category-btn');
+            const emptyState = document.getElementById('emptyState');
+            const btnResetSearch = document.getElementById('btnResetSearch');
+
+            // Tool data with additional metadata and enhanced icons
+            const toolsData = [
+                {
+                    icon: 'fa-solid fa-tasks', // Example icon, replace with a suitable one
+                    title: 'Performance Task Design Tool',
+                    description: 'Design authentic performance tasks that assess deeper understanding.',
+                    category: 'assessment', // Assuming 'assessment', adjust if needed
+                    isFavorited: false,
+                    formFields: [],
+                 actions: [{name: 'openLink', label: 'Open Tool', type: 'primary', url: './pa-template/index.html'}]
+                },
+                {
+                    icon: 'fa-solid fa-ruler',
+                    title: 'Leveler',
+                    description: 'Adjust the reading level of a text to make it more or less complex.',
+                    category: 'planning',
+                    isFavorited: true,
+                    formFields: ['textarea'],
+                    actions: [
+                        { name: 'openLink', label: 'English text', type: 'primary', url: 'https://yuanqi.tencent.com/agent/s8hZA9JPvhk7' },
+                        { name: 'openLink', label: 'Chinese text', type: 'primary', url: 'https://yuanqi.tencent.com/agent/iomAX06eLMBI' }
+                    ]
+                },
+                {
+                    icon: 'fa-solid fa-bars',
+                    title: 'Chunk Text',
+                    description: 'Break complex texts into manageable sections for easier student comprehension.',
+                    category: 'planning',
+                    isFavorited: false,
+                    formFields: [],
+                    actions: [
+                        {name: 'openLink', label: 'Long Text', type: 'primary', url: 'https://yuanqi.tencent.com/agent/VGG01iZUTK8j'},
+                        {name: 'openLink', label: 'Short Text', type: 'primary', url: 'https://yuanqi.tencent.com/agent/AbYoIQ1jMG3m'}
+                    ]
+                },
+                {
+                    icon: 'fa-solid fa-file-lines',
+                    title: 'Clear Directions',
+                    description: 'Generate concise, easy-to-follow instructions for assignments and activities.',
+                    category: 'planning',
+                    isFavorited: false,
+                    formFields: [],
+                    actions: [{name: 'openLink', label: 'Get agent', type: 'primary', url: 'https://yuanqi.tencent.com/agent/LL0m3lQv0zo8'}]
+                },
+
+                {
+                    icon: 'fa-solid fa-ticket',
+                    title: 'Exit Ticket',
+                    description: 'Create quick end-of-lesson assessments to check student understanding.',
+                    category: 'assessment',
+                    isFavorited: false,
+                    formFields: [],
+                    actions: [{name: 'openLink', label: 'Get agent', type: 'primary', url: 'https://yuanqi.tencent.com/agent/UpGCq8RLnn4y'}]
+                },
+
+                //adding a new tool called 'lesson hook'
+                {
+                    icon: 'fa-solid fa-anchor',
+                    title: 'Lesson Hook',
+                    description: 'Plan compelling lesson starters to engage students.',
+                    category: 'engagement',
+                    isFavorited: false,
+                    formFields: [],
+                    actions: [{name: 'openLink', label: 'Get agent', type: 'primary', url: 'https://yuanqi.tencent.com/agent/FSZ7T7x3Sqa8'}]
+                },
+            /*    
+                            {
+                    icon: 'fa-solid fa-bullseye',
+                    title: 'Learning Objective(s)',
+                    description: 'Develop clear, measurable learning objectives to guide instruction.',
+                    category: 'planning',
+                    isFavorited: false,
+                    formFields: []
+                },
+                {
+                    icon: 'fa-solid fa-earth-americas',
+                    title: 'Real World Context Generator',
+                    description: 'Connect lesson topics to engaging real-world examples and applications.',
+                    category: 'engagement',
+                    isFavorited: false,
+                    formFields: []
+                },*/
+                {
+                    icon: 'fa-solid fa-list-check',
+                    title: 'Multiple Choice Assessment',
+                    description: 'Create multiple-choice assessments on a variety of topics.',
+                    category: 'assessment',
+                    isFavorited: false,
+                    formFields: [],
+                    actions: [{name: 'openLink', label: 'Get agent', type: 'primary', url: 'https://yuanqi.tencent.com/agent/AolEMzp3h0jy'}]
+                },
+              /*  {
+                    icon: 'fa-solid fa-circle-question',
+                    title: 'Questions Generator',
+                    description: 'Create questions for a specific piece of content.',
+                    category: 'assessment',
+                    isFavorited: false,
+                    formFields: []
+                },*/
+                {
+                    icon: 'fa-solid fa-comments',
+                    title: 'Discussion Prompts',
+                    description: 'Craft engaging prompts to stimulate meaningful classroom discussions.',
+                    category: 'engagement',
+                    isFavorited: false,
+                    formFields: [],
+                    actions: [{name: 'openLink', label: 'Get agent', type: 'primary', url: 'https://yuanqi.tencent.com/agent/Zv63iKK9MgWl'}]
+                   
+                },
+             /*   {
+                    icon: 'fa-solid fa-anchor',
+                    title: 'Lesson Hook',
+                    description: 'Plan compelling lesson starters to engage students.',
+                    category: 'engagement',
+                    isFavorited: false,
+                    formFields: []
+                },*/
+                {
+                    icon: 'fa-solid fa-link',
+                    title: 'Make It Relevant',
+                    description: 'Link lesson content to students\' lives and interests to boost engagement.',
+                    category: 'engagement',
+                    isFavorited: false,
+                    formFields: [],
+                    actions: [{name: 'openLink', label: 'Get agent', type: 'primary', url: 'https://yuanqi.tencent.com/agent/g6EqCe7eKo2o'}]
+                }
+            ];
+
+            // Function to create badge with icon
+            function createBadgeWithIcon(category) {
+                let iconClass;
+                
+                switch(category) {
+                    case 'planning':
+                        iconClass = 'fa-solid fa-calendar-days';
+                        break;
+                    case 'assessment':
+                        iconClass = 'fa-solid fa-chart-simple';
+                        break;
+                    case 'engagement':
+                        iconClass = 'fa-solid fa-users';
+                        break;
+                    default:
+                        iconClass = 'fa-solid fa-tag';
+                }
+                
+                return `<i class="${iconClass}"></i>${category.charAt(0).toUpperCase() + category.slice(1)}`;
+            }
+
+            // Function to create tool card
+            function createToolCard(tool) {
+                const card = document.createElement('div');
+                card.className = 'tool-card';
+                card.style.opacity = "1"; // Ensure card is visible immediately
+                card.dataset.category = tool.category;
+                
+                const toolHeader = document.createElement('div');
+                toolHeader.className = 'tool-header';
+                
+                const iconDiv = document.createElement('div');
+                iconDiv.className = 'tool-icon';
+                iconDiv.innerHTML = `<i class="${tool.icon}"></i>`;
+                
+                const titleH3 = document.createElement('h3');
+                titleH3.className = 'tool-title';
+                titleH3.textContent = tool.title;
+                
+                toolHeader.appendChild(iconDiv);
+                toolHeader.appendChild(titleH3);
+                
+                const toolContent = document.createElement('div');
+                toolContent.className = 'tool-content';
+                
+                const descriptionP = document.createElement('p');
+                descriptionP.className = 'tool-description';
+                descriptionP.textContent = tool.description;
+                
+                const badgeSpan = document.createElement('span');
+                badgeSpan.className = `badge badge-${tool.category}`;
+                badgeSpan.innerHTML = createBadgeWithIcon(tool.category);
+                
+                toolContent.appendChild(descriptionP);
+                toolContent.appendChild(badgeSpan);
+                
+                const toolFooter = document.createElement('div');
+                toolFooter.className = 'tool-footer';
+                
+                // Add action buttons if they exist
+                if (tool.actions && tool.actions.length > 0) {
+                    tool.actions.forEach(action => {
+                        const actionBtn = document.createElement('button');
+                        actionBtn.className = action.type === 'primary' ? 'tool-btn' : 'tool-btn secondary';
+                        if (action.label === 'English text') {
+                            actionBtn.classList.add('english-text-btn');
+                        } else if (action.label === 'Chinese text') {
+                            actionBtn.classList.add('chinese-text-btn');
+                        }
+                        
+                        let iconClass = '';
+                        switch(action.name) {
+                            case 'openLink': // Generic case for opening links
+                                // Determine icon based on label or a new 'icon' property in action if needed
+                                if (action.label === 'Long Text') iconClass = 'fa-solid fa-align-left';
+                                else if (action.label === 'Short Text') iconClass = 'fa-solid fa-align-center';
+                                else if (action.label === 'Get agent') iconClass = 'fa-solid fa-robot';
+                                else if (action.label === 'English text') iconClass = 'fa-solid fa-language';
+                                else if (action.label === 'Chinese text') iconClass = 'fa-solid fa-language'; // Assuming same icon for now
+                                else iconClass = 'fa-solid fa-hand'; //else show a hand
+                                break;
+
+                            default:
+                                iconClass = 'fa-solid fa-arrow-right';
+                        }
+                        
+                        actionBtn.innerHTML = `<i class="${iconClass}"></i> ${action.label}`;
+                        
+                        actionBtn.addEventListener('click', () => {
+                            if (action.url) {
+                                window.open(action.url, '_blank');
+                            } else {
+                                // Fallback or default behavior if no URL is specified for other actions
+                                window.open('https://yuanqi.tencent.com/agent/VGG01iZUTK8j', '_blank');
+                            }
+                        });
+                        
+                        toolFooter.appendChild(actionBtn);
+                    });
+                }
+                
+                const addToListButton = document.createElement('button');
+                addToListButton.className = 'add-to-list-btn';
+                addToListButton.setAttribute('aria-label', 'Add to favorites');
+                addToListButton.innerHTML = `<i class="fa-regular fa-star"></i>`;
+                
+                // Check if tool is already in favorites
+                const isInList = localStorage.getItem(`tool_${tool.title}`) === 'true';
+                if (isInList) {
+                    addToListButton.classList.add('added');
+                    addToListButton.innerHTML = `<i class="fa-solid fa-star"></i>`;
+                    addToListButton.setAttribute('aria-label', 'Remove from favorites');
+                }
+                
+                addToListButton.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const isAdded = addToListButton.classList.contains('added');
+                    
+                    if (isAdded) {
+                        // Remove from favorites
+                        addToListButton.classList.remove('added');
+                        addToListButton.innerHTML = `<i class="fa-regular fa-star"></i>`;
+                        addToListButton.setAttribute('aria-label', 'Add to favorites');
+                        localStorage.removeItem(`tool_${tool.title}`);
+                    } else {
+                        // Add to favorites
+                        addToListButton.classList.add('added');
+                        addToListButton.innerHTML = `<i class="fa-solid fa-star"></i>`;
+                        addToListButton.setAttribute('aria-label', 'Remove from favorites');
+                        localStorage.setItem(`tool_${tool.title}`, 'true');
+                    }
+                });
+                
+                toolFooter.appendChild(addToListButton);
+                
+                card.appendChild(toolHeader);
+                card.appendChild(toolContent);
+                card.appendChild(toolFooter);
+                
+                return card;
+            }
+
+            // Render all tools initially
+            function renderTools(tools) {
+                toolsGrid.innerHTML = '';
+                
+                if (tools.length === 0) {
+                    emptyState.style.display = 'flex';
+                    toolsGrid.style.display = 'none';
+                } else {
+                    emptyState.style.display = 'none';
+                    toolsGrid.style.display = 'grid';
+                    
+                    tools.forEach(tool => {
+                        const toolCardElement = createToolCard(tool);
+                        toolsGrid.appendChild(toolCardElement);
+                    });
+                }
+            }
+
+            // Filter tools by search input
+            searchInput.addEventListener('input', () => {
+                filterTools();
+            });
+
+            // Reset search
+            btnResetSearch.addEventListener('click', () => {
+                searchInput.value = '';
+                filterTools();
+                searchInput.focus();
+            });
+
+            // Filter function
+            function filterTools() {
+                const searchTerm = searchInput.value.toLowerCase().trim();
+                const activeCategory = document.querySelector('.category-btn.active').dataset.category;
+                
+                const filteredTools = toolsData.filter(tool => {
+                    const matchesSearch = tool.title.toLowerCase().includes(searchTerm) || 
+                                        tool.description.toLowerCase().includes(searchTerm);
+                    let matchesCategory = true;
+                    
+                    if (activeCategory === 'my-list') {
+                        matchesCategory = localStorage.getItem(`tool_${tool.title}`) === 'true';
+                    } else if (activeCategory !== 'all') {
+                        matchesCategory = tool.category === activeCategory;
+                    }
+                    
+                    return matchesSearch && matchesCategory;
+                });
+                
+                renderTools(filteredTools);
+            }
+
+            // Filter tools by category
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    categoryBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    filterTools();
+                });
+            });
+
+            // Force immediate rendering of all tools
+            setTimeout(() => {
+                renderTools(toolsData);
+                // Force layout recalculation
+                document.body.offsetHeight;
+            }, 0);
+        });

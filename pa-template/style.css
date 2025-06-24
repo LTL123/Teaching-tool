@@ -197,13 +197,6 @@ body {
     font-size: 1rem;
 }
 
-.custom-rubric-indicator-title {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--gray-700); /* Match form-label color */
-    margin-bottom: 0; /* Align with how h5 was used */
-}
-
 .form-help {
     font-size: 0.9rem;
     color: var(--gray-600);
